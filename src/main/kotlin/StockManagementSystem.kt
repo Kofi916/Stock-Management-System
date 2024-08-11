@@ -23,9 +23,9 @@ fun main(args: Array<String>) {
 
         when (ch) {
             1 -> scrud.addStock()
-            2 -> println("Displaying all Stock")
-            3 -> println("Deleting a Stock")
-            4 -> println("Updating a Stock")
+            2 -> scrud.displayStock()
+            3 -> scrud.deleteStock()
+            4 -> scrud.updateStock()
             5 -> System.exit(1)
 
             else -> println("Invalid Selection")
